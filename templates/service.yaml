@@ -10,4 +10,3 @@ spec:
       nodePort: {{ .Values.service.nodePort }}
   selector:
     app: {{ .Release.Name }}-fixit
-

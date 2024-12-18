@@ -8,4 +8,4 @@ image:
 service:
   type: NodePort
   port: 8080
-  nodePort: 30001
+  nodePort: 30002
