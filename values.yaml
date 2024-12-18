@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: miroshx/fixit
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30001
